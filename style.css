@@ -1,0 +1,124 @@
+	body{
+background-image:url("https://image.freepik.com/free-psd/abstract-background-design_1297-82.jpg");
+width:5%;
+height:20%;
+overflow-x:hidden;
+}
+
+
+		#Info
+		{
+			top: 25%;
+			left: 0%;
+			width:50%;
+			height: 70%;
+			text-align:center;
+			z-index: 10;
+			color:#FFFFFF;
+			float:left;
+			overflow:hidden;
+			
+			
+			
+		}
+		
+		#Info h1{
+		color:#ffffff;
+		font-size: 56px;
+		text-align:center;
+		}
+		
+		
+		#Main{
+			top: 12%;
+			left: 15%;
+			width:67%;
+			height: 74%;
+			position: absolute;
+			text-align: center;
+			z-index: 10;
+			color:#ffffff;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 50px;
+			text-shadow: 3px 3px #000000;
+		}
+		
+			#Fontt{
+		font-size: 20px
+		}
+		
+		
+	#Footer
+		{
+		position:fixed;
+		height:7%;
+		bottom:0;
+		left:0%;
+		width:100%;
+		border-top:1px solid #000000;
+		background:#a6a6a6;
+		z-index:90;
+		color:#000000;
+		text-decoration:none;
+		text-align: left;
+		vertical-align: middle;
+		padding-top:5px;
+		font-family:times;
+		}
+		
+		#menu {
+			top:0%;
+			left:0%;
+			width:100%;
+			position:absolute;
+			background:#a6a6a6;
+			border-bottom: 1px solid #000000;
+			z-index:100;
+		}
+		
+		#menu ul {
+		list-style: none;
+		float: left;
+		}
+		
+	#menu ul ul {
+	display: none;
+}
+
+nav ul ul li {
+		float: none; 
+		border-top: 1px solid #000000;
+		border-bottom: 1px solid #a6a6a6;
+		position: relative;
+	}
+	
+#menu ul {
+			padding-left: 3%;
+			margin-left: 9%;
+			
+		}
+
+		#menu li {
+			position: relative;
+			z-index: 9;
+			margin-top: 2px;
+			padding: 0 0px 0 0;
+			display: block;
+			float: left;
+		}
+		#menu a{
+		text-decoration:none;
+		color:black;
+		font-family: "Times new roman", serif ;
+		margin-right:50px;
+		float: none;
+		}
+		
+		#menu a:hover{
+				
+		color:#000000;
+	
+		-webkit-border-radius: 1em 1em 1em 1em;
+		-moz-border-radius: 1em 1em 1em 1em;
+		border-radius: 1em 1em 1em 1em;
+		}
