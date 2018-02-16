@@ -1,5 +1,5 @@
 	body{
-background-image:url("https://image.freepik.com/free-psd/abstract-background-design_1297-82.jpg");
+background-image:url("http://www.freebiesgallery.com/wp-content/uploads/2013/08/light-blue-background-1.jpg");
 width:5%;
 height:20%;
 overflow-x:hidden;
@@ -37,10 +37,10 @@ overflow-x:hidden;
 			position: absolute;
 			text-align: center;
 			z-index: 10;
-			color:#ffffff;
+			color:#000000;
 			font-family: "Times New Roman", Times, serif;
 			font-size: 50px;
-			text-shadow: 3px 3px #000000;
+			text-shadow: 3px 3px #ffffff;
 		}
 		
 			#Fontt{
