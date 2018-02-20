@@ -1,54 +1,11 @@
-	body{
+body{
 background-image:url("http://www.freebiesgallery.com/wp-content/uploads/2013/08/light-blue-background-1.jpg");
 overflow-x:hidden;
-background-repeat:no-repeat;
+background-repeat:repeat-y;
 background-size: cover;
 }
 
-
-		#Info
-		{
-			top: 25%;
-			left: 0%;
-			width:50%;
-			height: 70%;
-			text-align:center;
-			z-index: 10;
-			color:#FFFFFF;
-			float:left;
-			overflow:hidden;
-			
-			
-			
-		}
-		
-		#Info h1{
-		color:#ffffff;
-		font-size: 56px;
-		text-align:center;
-		}
-		
-		
-		#Main{
-			top: 12%;
-			left: 15%;
-			width:67%;
-			height: 74%;
-			position: absolute;
-			text-align: center;
-			z-index: 10;
-			color:#000000;
-			font-family: "Times New Roman", Times, serif;
-			font-size: 50px;
-			text-shadow: 3px 3px #ffffff;
-		}
-		
-			#Font{
-		font-size: 20px
-		}
-		
-		
-	#Footer
+#Footer
 		{
 		position:fixed;
 		height:7%;
@@ -83,8 +40,13 @@ background-size: cover;
 		
 	#menu ul ul {
 	display: none;
+}
 
+	#menu ul li:hover > ul {
+		display: block;
+		
 	}
+	
 	
 #menu ul {
 			padding-left: 3%;
@@ -116,3 +78,48 @@ background-size: cover;
 		-moz-border-radius: 1em 1em 1em 1em;
 		border-radius: 1em 1em 1em 1em;
 		}
+		
+		#content
+		{
+			top: 25%;
+			left: 0%;
+			width:50%;
+			height: 70%;
+			text-align:center;
+			z-index: 10;
+			color:#FFFFFF;
+			float:left;
+			overflow:none;
+			
+			
+			
+		}
+		
+		#content h1{
+		color:#ffffff;
+		font-size: 56px;
+		text-align:center;
+		}
+
+		#content{
+			top: 9%;
+			left: 18%;
+			width:64%;
+			height: 71%;
+			position: absolute;
+			text-align: center;
+			z-index: 10;
+			color:#000000;
+			font-family: "Times New Roman", times, serif;
+			font-size: 20px;
+			
+		}
+		
+		#box{
+		    width:100px;
+		    height:180px;
+		    border:2px solid #000000;
+		    background-image:url("http://www.freebiesgallery.com/wp-content/uploads/2013/08/light-blue-background-1.jpg");
+		    
+		}
+		

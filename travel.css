@@ -1,0 +1,99 @@
+#section1{
+   background-image: url("http://foundtheworld.com/wp-content/uploads/2015/12/Barcelona-Spain-3.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#section2{
+    background-image: url(https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/marlborough-sounds.jpg?focalpointx=33&focalpointy=48&height=420&outputformat=jpg&quality=75&source=3452242&transformationsystem=focalpointcrop&width=960&securitytoken=B61983E098F2780119749768B91190B8);
+     background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#section3{
+    background-image: url("http://www.langhamhotels.com/cdn-2476ed1c/globalassets/lhr/lp-newyork/overview/lpnyc-hero-1680-945.jpg");
+     background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
+
+	#menu {
+			top:0%;
+			left:0%;
+			width:100%;
+			position:absolute;
+			background:#a6a6a6;
+			border-bottom: 1px solid #000000;
+			z-index:100;
+		}
+		
+		#menu ul {
+		list-style: none;
+		float: left;
+		}
+		
+	#menu ul ul {
+	display: none;
+}
+
+	#menu ul li:hover > ul {
+		display: block;
+		
+	}
+	
+	
+#menu ul {
+			padding-left: 3%;
+			margin-left: 9%;
+			
+		}
+
+		#menu li {
+			position: relative;
+			z-index: 9;
+			margin-top: 2px;
+			padding: 0 0px 0 0;
+			display: block;
+			float: left;
+		}
+		#menu a{
+		text-decoration:none;
+		color:black;
+		font-family: "Times new roman", serif ;
+		margin-right:50px;
+		float: none;
+		}
+		
+		#menu a:hover{
+				
+		color:#ffffff;
+	
+		-webkit-border-radius: 1em 1em 1em 1em;
+		-moz-border-radius: 1em 1em 1em 1em;
+		border-radius: 1em 1em 1em 1em;
+		}
+		
+		#Footer
+		{
+		position:fixed;
+		height:7%;
+		bottom:0;
+		left:0%;
+		width:100%;
+		border-top:1px solid #000000;
+		background:#a6a6a6;
+		z-index:90;
+		color:#000000;
+		text-decoration:none;
+		text-align: left;
+		vertical-align: middle;
+		padding-top:5px;
+		font-family:times;
+		}

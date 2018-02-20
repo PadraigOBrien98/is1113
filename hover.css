@@ -3,22 +3,10 @@ background-image:url("http://www.freebiesgallery.com/wp-content/uploads/2013/08/
 width:5%;
 height:20%;
 overflow-x:hidden;
+background-repeat:no-repeat;
+  background-size: cover;
 }
 
-
-
-header
-		{
-		top:10%;
-		left:0%;
-		width:100%;
-		height:40%;
-		position:absolute;
-		text-align: Bottom;
-		color: #ffffff;
-		font-family:verdana;
-		
-		}
 		
 		#Title
 		{		
@@ -72,7 +60,7 @@ header
 			text-align: center;
 			z-index: 10;
 			color:#FFFFFF;
-			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-family: "Times New Roman", times, serif;
 			font-size: 20px;
 			text-shadow: 2px 2px #000000;
 		}
@@ -124,16 +112,10 @@ header
 		
 	}
 	
-	nav ul ul li {
-		float: none; 
-		border-top: 1px solid #6b727c;
-		border-bottom: 1px solid #575f6a;
-		position: relative;
-	}
 	
 #menu ul {
-			padding-left: 0%;
-			margin-left: 10%;
+			padding-left: 3%;
+			margin-left: 9%;
 			
 		}
 
@@ -155,7 +137,7 @@ header
 		
 		#menu a:hover{
 				
-		color:#000000;
+		color:#ffffff;
 	
 		-webkit-border-radius: 1em 1em 1em 1em;
 		-moz-border-radius: 1em 1em 1em 1em;
@@ -164,40 +146,6 @@ header
 		
 				
 
-		#SideMenu {
-			top:25%;
-			left:0%;
-			width:18%;
-			position:Absolute;
-			background:#554E4D;
-			border-bottom: 1px solid #0066cc;
-			z-index:100;
-		}
-		
-		#SideMenu ul {
-		list-style: none;
-		float: left;
-		}
-		#SideMenu ul {
-			padding-left: 20%;
-		}
-
-		#SideMenu li {
-			position: relative;
-			z-index: 9;
-			margin-top: 2px;
-			padding: 0 0px 0 0;
-			display: block;
-			float: left;
-		}
-		#SideMenu a{
-		text-decoration:none;
-		color:white;
-		font-family:Verdana;
-		margin-right:40px;
-
-		}
-	
 	
 	/*Cv */
 	/*Sports Details button */
