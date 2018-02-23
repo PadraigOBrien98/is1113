@@ -1,0 +1,132 @@
+body{
+background-image:url("http://www.freebiesgallery.com/wp-content/uploads/2013/08/light-blue-background-1.jpg");
+overflow-x:hidden;
+background-repeat:repeat-y;
+background-size: cover;
+}
+
+#menu {
+			top:0%;
+			left:0%;
+			width:100%;
+			position:absolute;
+			background:#a6a6a6;
+			border-bottom: 1px solid #000000;
+			z-index:100;
+		}
+		
+		#menu ul {
+		list-style: none;
+		float: left;
+		}
+		
+	#menu ul ul {
+	display: none;
+}
+
+	#menu ul li:hover > ul {
+		display: block;
+		
+	}
+	
+	
+#menu ul {
+			padding-left: 3%;
+			margin-left: 9%;
+			
+		}
+
+		#menu li {
+			position: relative;
+			z-index: 9;
+			margin-top: 2px;
+			padding: 0 0px 0 0;
+			display: block;
+			float: left;
+		}
+		#menu a{
+		text-decoration:none;
+		color:black;
+		font-family: "Times new roman", serif ;
+		margin-right:50px;
+		float: none;
+		}
+		
+		#menu a:hover{
+				
+		color:#ffffff;
+	
+		-webkit-border-radius: 1em 1em 1em 1em;
+		-moz-border-radius: 1em 1em 1em 1em;
+		border-radius: 1em 1em 1em 1em;
+		}
+
+#table {
+    font-family: times, serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#content
+		{
+			top: 25%;
+			left: 0%;
+			width:50%;
+			height: 70%;
+			text-align:center;
+			z-index: 10;
+			color:#0000000;
+			float:left;
+			overflow:none;
+			
+			
+			
+		}
+		
+		#content h1{
+		color:#000000;
+		font-size: 56px;
+		text-align:center;
+		}
+
+		#content{
+			top: 9%;
+			left: 18%;
+			width:64%;
+			height: 71%;
+			position: absolute;
+			text-align: center;
+			z-index: 10;
+			color:#000000;
+			font-family: "Times New Roman", times, serif;
+			font-size: 20px;
+			
+		}
+		
+		#Footer
+		{
+		position:fixed;
+		height:7%;
+		bottom:0;
+		left:0%;
+		width:100%;
+		border-top:1px solid #000000;
+		background:#a6a6a6;
+		z-index:90;
+		color:#000000;
+		text-decoration:none;
+		text-align: left;
+		vertical-align: middle;
+		padding-top:5px;
+		font-family:times;
+		}
