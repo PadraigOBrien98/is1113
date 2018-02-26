@@ -22,19 +22,29 @@ session_start();
                 </br>
                 <br>
                 
+                <label for="e_mail">E-mail Address</label>
+                <input type="email" id="e_mail" placeholder="email" manlength="30">
+                </br>
+                <br> 
+                
                     <label for="user_pin">PIN</label>
                     
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                 </br>
                 <br>
                 
+                <br/>
+            <button onClick="validateDetails()">Validate</button>
                 
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+
               
             </form>
             
+            <br>
+            
+            <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            
             
             <?php
             // Set session variables

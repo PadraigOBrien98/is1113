@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
+        <link rel="stylesheet" type="text/css" href="ebus.css">
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -10,7 +11,30 @@
     </head>
     
     <body>
+      
+      <nav>
+            <div id ="menu">
+                <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="cc.html">Cloud Services</a>
+                    </li>
+                        <li>
+                            <a href="cv.html">Curriculum Vitae</a>
+                            </li>
+                            <li>
+                                <a href="hover.html">Interests</a>
+                            </li>
+                            <li>
+                                <a href="ebus1.php">E Business</a>
+                            </li>
+                </ul>
+            </div>
+        </nav>
         
+        <div id="main">
             <h4>Select a Product</h4>
             
             <br/>
@@ -56,13 +80,19 @@
     
               <br/>
               <br>
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button onClick="calcSub()">Calculate Cost</button>
             
             </form>
+          
             <br>
             <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
+             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            
             <a role="button" href="Ebus1.php">Clear Choice</a>
+            </div>
     
+    <div id="footer">
+      <p>Created by Padraig O Brien (117462952)</p>
+    </div>
     </body>
 </html>
