@@ -5,51 +5,99 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Enter Details</title>
-        
+        <link rel="stylesheet" type="text/css" href="ebus.css">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
+        
+        <title>Select Product</title>
+        
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
+        
     </head>
     <body>
-        <h4>Please enter your payment details</h4>
+        <nav>
+            <div id ="menu">
+                <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="cc.html">Cloud Services</a>
+                    </li>
+                        <li>
+                            <a href="cv.html">Curriculum Vitae</a>
+                            </li>
+                            <li>
+                                <a href="hover.html">Interests</a>
+                            </li>
+                            <li>
+                                <a href="ebus1.php">E Business</a>
+                            </li>
+                </ul>
+            </div>
+        </nav>
         
         
-            <form action="ebus3.php" method="POST">
+        
+        
+        
+        <div id="main">
+        
+        <h4>Payment Details</h4>
+        
+        
+        <form action="ebus3.php" method="POST">
 
-<label for="user_name">Name</label>
-                <input type="name" id="user_name" placeholder="Name" manlength="20">
-                </br>
-                <br>
-                
-                <label for="e_mail">E-mail Address</label>
-                <input type="email" id="e_mail" placeholder="email" manlength="30">
-                </br>
-                <br> 
-                
-                    <label for="user_pin">PIN</label>
+          <label for="name">
+
+            <input type="text" id="name" name="name" placeholder="Name" value=""/>
+
+          </label>
+
+          </br>
+
+          <label for="email">
+
+            <input type="text" id="email" name="email" placeholder="Email" value=""/>
+
+          </label>
+
+          </br>
+
+          <label for="user_pin">
                     
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-                </br>
-                <br>
-                
-                <br/>
-            <button onClick="validateDetails()">Validate</button>
-                
+            <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                    
+          </label>
 
-              
-            </form>
+          </br>
             
-            <br>
+          
+          
+          </br>
             
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-            <br/>
+              
+          </form>
+            
+          <br/>
             
             
-            <?php
-            // Set session variables
-            $_SESSION["total"] = $_POST["total"];
-            ?>
+        <button id="btnValidate" onClick="validateDetails()" enabled>Validate</button>
+          
+            
+        </div>
+        
+        <?php
+        // Set session variables
+        $_SESSION["total"] = $_POST["total"];
+        $_SESSION["vat"] = $_POST["vat"];
+        $_SESSION["discount"] = $_POST["discount"];
+        $_SESSION["subtotal"] = $_POST["subtotal"];
+        ?>
         
     </body>
 </html>

@@ -48,7 +48,7 @@
               
               <br/>
               <label for="c9">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="c9" name="product" onClick="disablebtnProceed()"/>
                 Cloud 9 @ $200
               </label>
               <br/>
@@ -60,7 +60,7 @@
               <br/>
               
               <label for="gmail">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Gmail @ $400
               </label>
               
@@ -73,6 +73,22 @@
               
               <br/>
               <br>
+              
+            <label for="vat">
+                VAT @ 10%: 
+                <input type="text" id="vat" value="0.00" readonly/>
+            </label>
+            <br/>
+            <br/>
+            
+            
+            <label for="discount">
+                Discount @ 5%: 
+                <input type="text" id="discount" value="0.00" readonly/>
+            </label>
+            <br/>
+            <br/>
+            
               <label for="total">
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
@@ -80,13 +96,14 @@
     
               <br/>
               <br>
-              <button onClick="calcSub()">Calculate Cost</button>
-            
+              
+            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </form>
           
             <br>
             <br/>
-             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+             
+            <button onClick="calcSub()">Calculate Cost</button>
             
             <a role="button" href="Ebus1.php">Clear Choice</a>
             </div>

@@ -44,8 +44,15 @@
 		list-style: none;
 		float: left;
 		}
+		
+			#menu ul ul {
+	display: none;
+}
 
-	
+	#menu ul li:hover > ul {
+		display: block;
+		
+	}
 	
 #menu ul {
 			padding-left: 3%;
