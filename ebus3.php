@@ -37,18 +37,16 @@ session_start();
                 </ul>
             </div>
         </nav>
-        
-            <h4>Receipt</h4>
-        </div>
-        <br/>
-        <br/>
-
         <div id="main">
+            
+            <h3>Receipt</h3>
+        <br/>
+        
             <?php
             //Echo session variables that were set on previous page, Ebus2
-            echo "Name: " . $_POST["name"] . "<br/>";
-            echo "Email: " . $_POST["email"] . "<br/>";
-            echo "Total Price: " . $_SESSION["total"] . "<br/>";
+            echo "Name: " . $_POST["name"] . "<br/> <br>";
+            echo "Email: " . $_POST["email"] . "<br/> <br>";
+            echo "Total Price: " . $_SESSION["total"] . "<br/> <br>";
             ?>
         </div>
     </body>

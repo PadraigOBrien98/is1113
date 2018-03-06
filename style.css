@@ -1,5 +1,5 @@
 	body{
-background-image:url("http://www.freebiesgallery.com/wp-content/uploads/2013/08/light-blue-background-1.jpg");
+background-image:url("http://whc.unesco.org/uploads/thumbs/site_0638_0002-750-0-20130515152112.jpg");
 overflow-x:hidden;
 background-repeat:no-repeat;
 background-size: cover;
@@ -37,10 +37,9 @@ background-size: cover;
 			position: absolute;
 			text-align: center;
 			z-index: 10;
-			color:#000000;
+			color:#FFFFFF;
 			font-family: "Times New Roman", Times, serif;
 			font-size: 50px;
-			text-shadow: 3px 3px #ffffff;
 		}
 		
 			#Font{
